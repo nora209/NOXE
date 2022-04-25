@@ -1,0 +1,14 @@
+<section class="vh-100 d-flex align-items-end">
+  <div class="container">
+    <h1>OUR LATEST MOVIES</h1>
+    <owl-carousel-o [options]="customOptions" >
+      <ng-container *ngFor="let slide of parentDate">
+        <ng-template carouselSlide [id]="slide.id">
+          <img [src]="imgPrefex+slide.poster_path" [alt]="slide.title">
+        </ng-template> 
+      </ng-container>
+      
+    </owl-carousel-o> 
+  </div>
+</section>
+<!-- class="slider-service" -->

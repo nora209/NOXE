@@ -1,0 +1,68 @@
+
+// @import '~ngx-owl-carousel-o/lib/styles/scss/owl.carousel';
+// @import '~ngx-owl-carousel-o/lib/styles/scss/owl.theme.default';
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Courgette&family=Indie+Flower&family=Ole&family=Righteous&display=swap');
+
+$bgColor:#131722;
+$lightBgColor:#24baef;
+$bgTransparent:rgba(36,186,239,.6);
+$fontColor:#fff;
+$borderColor:#a8a8a83d;
+$borderHeight:1px;
+$secondFontColor:#949cb0;
+
+
+
+body{
+    background-color: $bgColor;
+    color: $fontColor;
+    font-family: Indie;
+}
+a{
+    font-size: 18px;
+    color: $fontColor;
+    text-decoration: none;
+}
+a:hover{
+    font-size: 18px;
+    color: $fontColor;
+    text-decoration: none;
+}
+.brdr{
+    height: 1px;
+    background-color: $borderColor;
+}
+.second-color{
+    color:$secondFontColor;
+}
+.vote{
+    background-color: $lightBgColor;
+    padding: 5px;
+    font-weight: 700;
+    position: absolute;
+    top: 0;
+    right: 10px;
+
+}
+.navbar{
+    background-color: #131722;
+    width: 100%;
+   top: 0%;
+}
+h4,p{
+    color: $secondFontColor;
+}
+button{
+    background-color: $lightBgColor;
+    border-radius: 5px;
+    color: $fontColor;
+    margin-right: 10px;
+}
+span{
+    color: $lightBgColor;
+}
+footer{
+    margin-bottom: 0PX;
+    text-align: center;
+    padding-bottom: 0PX;
+}

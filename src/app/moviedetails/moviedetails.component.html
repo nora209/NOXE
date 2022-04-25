@@ -1,0 +1,44 @@
+<div class="container py-5">
+    <div class="row">
+
+
+        <div class="col-md-4">
+            <img class="w-100" [src]="imgPrefex+movieDeltails?.poster_path" alt="">
+        </div>
+        <div class="col-md-8 pt-3">
+            <div>
+                <h1>{{movieDeltails?.title}}</h1>
+            </div>
+            <br>
+            <div>
+                <h4>{{movieDeltails?.tagline}}</h4>
+            </div>
+            <br>
+            <div class="d-flex ">
+              <button>Crime</button>
+                <button>Drama</button>
+            <button>Thriller</button>
+            </div>
+            <br>
+            <div>
+                <h6>Vote: {{movieDeltails?.vote_average}}</h6>
+            </div>
+            <br>
+            <div>
+                <h6>Vote Count:{{movieDeltails?.vote_count}}</h6>
+            </div>
+            <br>
+            <div>
+
+                <h6>Popularity:{{movieDeltails?.popularity}}</h6>
+            </div>
+            <br>
+            <div>
+
+                <h6>Release Date: {{movieDeltails?.release_date}}</h6>
+            </div>
+            <br>
+            <p>{{movieDeltails?.overview}}</p>
+        </div>
+    </div>
+</div>
